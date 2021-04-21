@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+h1,h2 {
+  padding: 0.5rem;
+  background-color: maroon;
+  color: gold;
+}
+body {
+  font-family: verdana;
+}
+section {
+  border: solid 1px maroon;
+  float: left;
+  width: calc(100% / 3 - 2rem);
+  margin: 1rem;
+  padding: 1rem;
+  background-size: cover;
+}
+
+#suzie {
+  background-image: url(suzie.jpeg);
+  background-position: 25%;
+}
+
+#jb {
+  background-image: url(jb.jpeg);
+  background-position: center;
+}
+#denzel {
+  background-image: url(denzel.jpeg);
+  background-position: center;
+}
